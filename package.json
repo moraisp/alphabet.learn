@@ -1,0 +1,29 @@
+{
+  "name": "alphabet.learn",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "alphabet-learn": "./bin/alphabet-learn"
+  },
+  "scripts": {
+    "start:dev": "npm run start:api:dev && npm run start:web:dev",
+    "start:web:dev": "cd web && npm start",
+    "start:api:dev": "cd api && npm run start:dev",
+    "start:api": "cd api && npm run start",
+    "start:prod": "cd run build:web && npm run start:api",
+    "build:web": "cd web && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moraisp/alphabet.learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moraisp/alphabet.learn/issues"
+  },
+  "homepage": "https://github.com/moraisp/alphabet.learn#readme",
+  "devDependencies": {
+    "typescript": "3.9.5"
+  }
+}

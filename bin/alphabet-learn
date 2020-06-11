@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+"use strict";
+
+const creator_1 = require("../api/index");

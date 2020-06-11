@@ -1,0 +1,25 @@
+{ 
+  "compilerOptions": {
+    "composite": true,
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "types": [ "node" ],  
+    "target": "es2020",
+    "sourceMap": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "baseUrl" : ".", 
+    "paths": {
+      "@models/*": [
+        "../model/*"
+      ]
+    }
+  },
+  "exclude": [ "**/*.d.ts" ]
+}

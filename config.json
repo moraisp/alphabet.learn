@@ -1,0 +1,4 @@
+{
+    "mongo": "mongodb://admin:admongo@mongo01.martonis.net:27017/MABT_DEV_LOCAL",
+    "port": 12000
+}
