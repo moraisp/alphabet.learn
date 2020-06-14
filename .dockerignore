@@ -1,7 +1,6 @@
 # .npmignore
 .gitignore
 .npmignore
-package-lock.json
 /.vscode
 *.pem
 *.ts

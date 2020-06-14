@@ -26,7 +26,7 @@ export class AppController {
 
     if (process.env.NODE_ENV !== 'development') {
       if(isFile) return next();
-      res.sendFile(path.join(__dirname, '../../web/dist', 'index.html'));
+      res.sendFile(path.resolve(__dirname, '../../../web/dist/index.html'));
     } else {
       let handler = proxy('http://localhost:8080', {
         proxyReqPathResolver: function (req) {

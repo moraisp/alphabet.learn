@@ -1,7 +1,7 @@
 {
   "name": "alphabet.learn",
   "version": "1.0.1",
-  "description": "",
+  "description": "Alphabetization tool",
   "bin": {
     "alphabet-learn": "./bin/alphabet-learn"
   },
@@ -28,6 +28,5 @@
     "typescript": "3.9.5"
   },
   "dependencies": {
-    "reflect-metadata": "0.1.13"
   }
 }
