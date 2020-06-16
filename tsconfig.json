@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
+    "typeRoots": ["./web/node_modules/@types", "./api/node_modules/@types"],
   },
   "files": [],
   "references": [
       { "path": "./web" },
-      { "path": "./api" }
+      { "path": "./api" },
+      { "path": "./model" }
   ]
 }

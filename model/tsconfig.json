@@ -2,7 +2,7 @@
   "compilerOptions": {
     "composite": false,
     "module": "commonjs",
-    "declaration": false,
+    "declaration": true,
     "removeComments": true,
     "allowJs": true,
     "emitDecoratorMetadata": true,
@@ -14,12 +14,6 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "baseUrl" : "..", 
-    "paths": {
-      "@models/*": [
-        "model/*"
-      ]
-    }
   },
-  "exclude": [ "**/*.d.ts" ]
+  "includes": [ "**/*.d.ts" ]
 }

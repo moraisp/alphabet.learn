@@ -1,7 +1,7 @@
 {
     "files.exclude": {
         "**/*.js.map": true,
-        "**/*.d.ts": true,
+        "**/*.d.ts": false,
         "**/*.js": {
             "when": "$(basename).ts"
         }, 
@@ -13,5 +13,5 @@
         "package-lock.json": true,
         "**/*.tsbuildinfo": true
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 4
 }
